@@ -16,12 +16,7 @@ This project demonstrates a CI/CD pipeline that:
 1. Clone the repository.
 2. Add GitHub secrets: `DOCKER_USERNAME`, `DOCKER_PASSWORD`.
 3. Push to main branch to trigger CI/CD pipeline.
-4. Deploy locally:
-```bash
-minikube start
-kubectl apply -f deployment.yaml
-minikube service ci-cd-service
-```
+4. Deploy locally
 
 ## Author
 Demo Project for CI/CD with Docker and GitHub Actions
